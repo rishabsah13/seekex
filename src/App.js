@@ -38,6 +38,9 @@ import twit from './assets/Ellipse 43.png'
 import insta from './assets/Ellipse 44.png'
 import linkin from './assets/Ellipse 45.png'
 import pin from './assets/Ellipse 46.png'
+
+
+
 function App() {
   return (
     <div className="container">
@@ -50,7 +53,7 @@ function App() {
         <div className='col offset-4'>
           <img src={img1} alt="img" className='imgcall' />
 
-          <span className='col text1'>
+          <span className='col callus'>
             Call Us: 1234567890
           </span>
         </div>
@@ -1137,14 +1140,14 @@ function App() {
 
       </div>
 
-      <div className='row footer'>
+      <div className='row lastlines'>
         <div className='col'>
-          <div className='lorem'>
+          <div className='loremx'>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries....
 
           </div>
 
-          <div className='icons'>
+          {/*  <div className='iconss'>
             <span className='icons-space'>
               <img src={fb} />
             </span>
@@ -1159,13 +1162,34 @@ function App() {
               <img src={pin} />
             </span>
           </div>
+  */       }
+          <div className='iconss'>
+            <span className='icons-spaces'>
+              <img src={fb} />
+            </span>
+            <span className='icons-spaces'>
+              <img src={twit} />
+            </span>
+            <span className='icons-spaces'>
+              <img src={insta} />
+            </span><span className='icons-spaces'>
+              <img src={linkin} />
+            </span><span className='icons-spaces'>
+              <img src={pin} />
+            </span>
+          </div>
         </div>
+
+
+
         <div className='col'>
-          <div className='online' >ONLINE SHOPPING</div>
+          <div className='online'>ONLINE SHOPPING</div>
           <div className='online-box'>
             Men’s T-Shirts Women’s Wear Winter Collections Hooded T-Shirts Streetwear Collections
           </div>
         </div>
+
+
         <div className='col'>
           <div className='online' >CUSTOMER POLICIES</div>
           <div className='online-box'>

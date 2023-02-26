@@ -21,19 +21,19 @@
   margin-top: 10px;
 }
 
-.text1 {
+.callus {
   position: absolute;
   width: 138px;
   height: 17px;
-  margin-left: 15px;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   /* identical to box height */
-  margin-top: 10px;
+
 
   color: #FFFFFF;
+
 }
 
 .header1 {
@@ -60,7 +60,7 @@
 }
 
 .rowcir {
-  margin-top: 68px;
+  margin-top: 78px;
 }
 
 .textcap {
@@ -396,12 +396,12 @@
 
 }
 
-.footer {
+.lastlines {
 
   margin-top: 135px;
 }
 
-.lorem {
+.loremx {
   width: 360px;
   height: 178.33px;
   font-family: 'Montserrat';
@@ -475,12 +475,12 @@
   margin-top: 10px;
 }
 
-.icons {
+.iconss {
 
   margin: 5px
 }
 
-.icons-space {
+.icons-spaces {
 
   margin: 5px
 }
@@ -513,5 +513,5 @@
 
 .searchicon {
 
-  margin-left: -40px;
+  margin: 10px;
 }
